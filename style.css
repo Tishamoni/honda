@@ -1,0 +1,150 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*======== Benner Area css========== */
+.benner{
+    background-color: #264653;
+    padding-top: 30px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 150px;   
+}
+.text-color{
+    color: #ffffff;
+}
+.honda-cbr h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+}
+.pur-btn{
+    background-color: #E76F51;
+    border: 0;
+    padding: 10px 46px;
+    color: #fff;
+    font: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+/* ======Fetured Bikes Area======= */
+.dike-coll h1{
+    margin-top: 66px;
+    font-size: 48px;
+    font-weight: 600;   
+}
+.dike-coll small{
+
+    margin-left: 99px;
+    color: #E76F51;
+}
+.row-2{
+    margin-top: 118px;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+  /* =========Clients Area ======== */
+  .clients{
+      margin-top: 150px;
+      margin-bottom: 52px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 48px;
+  }
+  .clients span{
+      color: #E76F51;
+  }
+  .card-img{
+      width: 140px;
+      margin:40px 107px ;
+  }
+  .card-img-3{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin:40px 100px ;
+  }
+  .fa-star{
+      color: #E77C40;
+  }
+  .clients-name{
+      font-size: 14px;
+      font-weight: 600;
+      color: #23A6F0;
+      margin-top: 10px;
+  }
+  .client-job{
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 20px;
+  }
+  
+/* =========FAQ Area ========== */
+.faq{
+    text-align: center;
+    font: 48px;
+    font-weight: 600;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.faq span{
+    color: #E76F51;
+}
+/* =====mini about====== */
+.icon{
+    background-color:rgb(156, 173, 190);
+    border-radius: 20px;
+    margin-bottom: 10px ;
+}
+/*============-- company imag--======== */
+ .company{  
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: gray;
+    text-align: center;
+}
+/* =========Footer ======== */
+.list-unstyled li a {
+    color: black;
+}
+.list-unstyled li a :hover{
+    color: #3167eb;
+}
+.color-text{
+    color: gray;
+}
+.pay-card{
+    color: gray;
+}
+    /* ========Media Query========= */
+@media only screen and (max-width: 767px){
+    .header-bike{
+        width: 350px;
+        height: 280px;
+        padding-left:0;
+    }
+    .benner{
+        padding:1rem;
+    }
+    .dike-coll h1{
+        font-size: 36px ;
+    }
+
+    .baik-spces {
+        margin-left: 38px;
+        margin-bottom: 90px;
+    }
+    .last-pic{
+        width: 100%;
+        
+    }
+    .company{
+        text-align: center;
+
+    }
+    
+        
+    
+}
